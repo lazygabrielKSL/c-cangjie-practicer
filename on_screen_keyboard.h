@@ -1,3 +1,9 @@
+/*
+    ATTENTION!
+    locale is not handled in this file,
+    please setlocale in main.c!
+*/
+
 #ifndef ON_SCREEN_KEYBOARD_H
 #define ON_SCREEN_KEYBOARD_H
 
