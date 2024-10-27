@@ -14,7 +14,7 @@ A Canjie Practicer made in C
 
 - Game mechanics
 
-    - [ ] Keyboard layout display
+    - [x] Keyboard layout display
 
     - [ ] Random Canjie radical generation
 
