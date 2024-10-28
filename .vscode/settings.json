@@ -72,6 +72,7 @@
     "cj_keymapping.h": "c",
     "time.h": "c",
     "generate_lesson.h": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "osk.h": "c"
   }
 }

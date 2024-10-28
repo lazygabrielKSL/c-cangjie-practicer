@@ -1,9 +1,11 @@
-#include "../include/on_screen_keyboard.h"
+#include "../include/cj_keymapping.h"
+#include "../include/osk.h"
 #include <locale.h>
 
 int main()
 {
     setlocale(LC_ALL, "zh_TW.UTF-8");
+    initialize_keymap();
     print_osk();
 
     // while(1):
