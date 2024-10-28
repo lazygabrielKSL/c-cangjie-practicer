@@ -51,7 +51,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# TBA
+# for analyzing cangjie radical occurence
 cjtable_gen/
 .venv/
 test/

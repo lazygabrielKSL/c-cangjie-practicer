@@ -16,9 +16,9 @@ A Canjie Practicer made in C
 
     - [x] Keyboard layout display
 
-    - [ ] Random Cangjie radical generation
+    - [ ] Lesson generation
 
-    - [ ] Type
+    - [ ] Type handling
 
     - [ ] Error indication
 
