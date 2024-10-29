@@ -11,7 +11,7 @@
 難重
 */
 
-const char* unlockable = "mbhoinrtfylujdksegvcpawqxz"; // ordered by frequency
+static const char* unlockable = "mbhoinrtfylujdksegvcpawqxz"; // ordered by frequency
 
 char** generate_lesson(const int words_per_gen, const int rads_unlocked)
 {

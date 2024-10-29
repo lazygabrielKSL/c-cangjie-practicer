@@ -59,7 +59,7 @@ void initialize_keymap()
     }
 }
 
-int change_key_frame_color(cj_keymapping key, int color)
+int change_key_frame_color(cj_keymapping* key, const int color)
 {
     switch (color)
     {
@@ -72,6 +72,6 @@ int change_key_frame_color(cj_keymapping key, int color)
     default:
         return -1;
     }
-    key.frame_color = color;
+    key->frame_color = color;
     return color;
 }

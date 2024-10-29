@@ -67,7 +67,7 @@ void initialize_keymap();
         If color is other value than FC_WHITE, FC_GREEN, FC_RED, 
         the frame color will not be changed and -1 will be returned.
 */
-int change_key_frame_color(cj_keymapping key, int color);
+int change_key_frame_color(cj_keymapping* key, const int color);
 
 /*
     cjk_row_nkeys[N]:
